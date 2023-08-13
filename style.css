@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'SCDream3';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream4';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream5';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream9';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000023;
+    margin: 0 auto;
+    font-size: 16px;
+}
+    
+input:focus {outline:none;}
+    
+.main {
+    width: 66rem;
+    height: 41.063rem;
+    position: absolute;
+    top: 13.563rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.playlist {
+    width: 35rem;
+    height: 24rem;
+    background: linear-gradient(90.00deg, rgb(141, 44, 225),rgb(63, 5, 173) 100%);
+    box-shadow: 0rem 0rem 1.688rem 0rem rgba(9, 0, 255, 0.25);
+    border-radius:2.188rem;
+    border: 0.063rem solid rgb(83, 84, 93);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+.user {
+    width: 27.813rem;
+    height: 24rem;
+    background: linear-gradient(0.00deg, rgb(141, 44, 225),rgb(63, 5, 173) 100%);
+    box-shadow: 0rem 0rem 1.688rem 0rem rgba(9, 0, 255, 0.25);
+    border: 0.063rem solid rgb(83, 84, 93);
+    border-radius:2.188rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.list {
+    width: 66rem;
+    height: 14.563rem;
+    background: linear-gradient(0.00deg, rgb(0, 0, 0) 45.668%,rgb(59, 0, 110) 100%);
+    border: 0.063rem solid rgb(83, 84, 93);
+    border-radius: 2.188rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.playlist-title {
+    width: 5.5rem;
+    height: 1.25rem;
+    font-family: 'SCDream3';
+    font-size: 1.125rem;
+    color: white;
+    text-align: center;
+    line-height: 1.125rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.add-button {
+    width: 12.125rem;
+    height: 1.75rem;
+    background-color:transparent;
+    border: 0rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-text {
+    width: 12.125rem;
+    height: 1.750rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sign {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.length {
+    width: 0.125rem;
+    height: 1.25rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.width {
+    width: 1.25rem;
+    height: 0.125rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-text {
+    width: 10.625rem;
+    height: 1.75rem;
+    font-size: 1.625rem;
+    font-family: 'SCDream4';
+    text-align: center;
+    line-height: 1.75rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+.img {
+    width: 6.875rem;
+    height: 6.875rem;
+    border-radius: 200rem;
+    background-color: #FFB000;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.name {
+    font-size: 2.2rem;
+    font-family: 'SCDream5';
+    color: white;
+    position: absolute;
+    top: 4.063rem;
+    left: 11rem;
+}
+
+.nickname {
+    font-size: 1.225rem;
+    font-family: 'SCDream3';
+    color: white;
+    position: absolute;
+    top: 6.8rem;
+    left: 11rem;
+}
+
+.informationbox {
+    width: 18.313rem;
+    height: 7.125rem;
+    position: absolute;
+    bottom: 4.438rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.follower-text {
+    width: 9.75rem;
+    height: 2.625rem;
+    font-size: 2.5rem;
+    font-family: 'SCDream3';
+    line-height: 2.2rem;
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+.follower-number {
+    width: 9.75rem;
+    height: 2.625rem;
+    font-size: 2.5rem;
+    font-family: 'SCDream5';
+    text-align: right;
+    line-height: 2.2rem;
+    color: white;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.lover-text {
+    width: 9.75rem;
+    height: 2.625rem;
+    font-size: 2.5rem;
+    font-family: 'SCDream3';
+    line-height: 3rem;
+    color: white;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.lover-number {
+    width: 9.75rem;
+    height: 2.625rem;
+    font-size: 2.5rem;
+    font-family: 'SCDream5';
+    text-align: right;
+    line-height: 3rem;
+    color: white;
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.title {
+    width: 66rem;
+    height: 6.75rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.title-big {
+    width: 28.063rem;
+    font-size: 4rem;
+    font-family: 'SCDream9';
+    color: white;
+    letter-spacing: 1.438rem;
+    line-height: 3rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+}
+
+.title-line {
+    width: 80vw;
+    height: 0.375rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-small-a {
+    width: 14.75rem;
+    height: 2.375rem;
+    font-size: 2rem;
+    font-family: 'SCDream3';
+    color: white;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.title-small-b {
+    width: 14.75rem;
+    height: 2.375rem;
+    font-size: 2rem;
+    font-family: 'SCDream3';
+    color: white;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 6rem;
+}
+
+.scroll {
+    width: 63.938rem;
+    height: 14.46rem;
+    border-radius: 2.1rem 0px 0px 2.1rem;
+    overflow: auto;
+    overflow-x:hidden;
+    transition: all 0.4s ease; 
+}
+
+.scroll::-webkit-scrollbar {
+    width: 10px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #53545D;
+    border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-track {
+    background-color:transparent;
+    border-radius: 10px;
+    margin-right: 3rem;
+}
+.scroll::-webkit-scrollbar-button:vertical:start:increment {
+    display: block;
+    height: 0.188rem;
+}
+.scroll::-webkit-scrollbar-button:vertical:end:increment {
+    display: block;
+    height: 0.38rem;
+}
+
+ul {
+    width: 66rem;
+    height: 14.563rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+li {
+    height: 3.125rem;
+    border-bottom: 1px solid rgb(38, 39,41);
+    list-style-type: none;
+    position: relative;
+}
+
+.artist-box {
+    width: 13.75rem;
+    height: 3.063rem;
+    margin: 0rem;
+    position: absolute;
+    left: 3.063rem;
+}
+
+.artist {
+    font-size: 1.875rem;
+    color: white;
+    font-family: 'SCDream4';
+}
+
+.hearts-box {
+    width: 15rem;
+    height: 3.063rem;
+    position: absolute;
+    left: 17.375rem;
+}
+
+.hearts {
+    width: 15rem;
+    text-align: center;
+    font-size: 1.875rem;
+    color: white;
+    font-family: 'SCDream4';
+    letter-spacing: 0.25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frice-box {
+    width: 18.875rem;
+    height: 3.063rem;
+    position: absolute;
+    left: 32.375rem;
+}
+
+.frice {
+    text-align: center;
+    font-size: 1.875rem;
+    color: white;
+    font-family: 'SCDream4';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.check-box {
+    width: 10rem;
+    height: 3.063rem;
+    position: absolute;
+    left: 52.25rem;
+}
+
+.check-icon {
+    width: 1.625rem;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.check {
+    font-size: 1.875rem;
+    color: white;
+    font-family: 'SCDream4';
+    position: absolute;
+    top: 50%;
+    left: 1.2em;
+    transform: translate(0%, -50%);
+}
+
+.introduce {
+    width: 63.563rem;
+    height: 4.063rem;
+    border-bottom: 1px solid rgb(38, 39,41);
+    position: relative;
+}
+
+.artist-title {
+    width: 13.75rem;
+    height: 3.063rem;
+    margin: 0rem;
+    font-size: 1.875rem;
+    color: #555555;
+    font-family: 'SCDream4';
+    position: absolute;
+    bottom: 0rem;
+    left: 3.063rem;
+}
+
+.hearts-title {
+    width: 15rem;
+    height: 3.063rem;
+    margin: 0rem;
+    font-size: 1.875rem;
+    color: #555555;
+    text-align: center;
+    font-family: 'SCDream4';
+    position: absolute;
+    bottom: 0rem;
+    left: 17.375rem;
+}
+
+.frice-title {
+    width: 18.875rem;
+    height: 3.063rem;
+    margin: 0rem;
+    font-size: 1.875rem;
+    color: #555555;
+    text-align: center;
+    font-family: 'SCDream4';
+    position: absolute;
+    bottom: 0rem;
+    left: 32.375rem;
+}
+
+.checks-title {
+    width: 10rem;
+    height: 3.063rem;
+    margin: 0rem;
+    font-size: 1.875rem;
+    color: #555555;
+    font-family: 'SCDream4';
+    position: absolute;
+    bottom: 0rem;
+    left: 52.25rem;
+}
